@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4b75d1-5885-4321-b6f6-93e67482dc9a" name="Default Changelist" comment="" />
+    <list default="true" id="5a4b75d1-5885-4321-b6f6-93e67482dc9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstTest/ChromeConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstTest/chrome_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstTest/Pages/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstTest/Pages/loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstTest/Tests/TestLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstTest/Tests/LoginTest.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +21,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1PgKJeD7nPSOd4VxTVqFXE2gtDx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -37,28 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TestLogin.TestLogin">
-    <configuration name="TestLogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TCW" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FirstTest/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FirstTest/Tests/TestLogin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for FirstTest.Tests.LoginTest.TestLogin.test_valid_login">
     <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TCW" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestLogin.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for FirstTest.Tests.LoginTest.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="TCW" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +81,35 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestLogin.TestLogin&quot;" />
+      <option name="_new_target" value="&quot;FirstTest.Tests.LoginTest.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for FirstTest.Tests.LoginTest.TestLogin.test_valid_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TCW" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FirstTest/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FirstTest.Tests.LoginTest.TestLogin.test_valid_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for FirstTest.chrome_config.TestTemplate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TCW" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FirstTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FirstTest.chrome_config.TestTemplate&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -108,27 +127,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for login.LoginTest.test_login_valid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="TCW" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FirstTest/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login.LoginTest.test_login_valid&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for TestLogin.TestLogin" />
+        <item itemvalue="Python tests.Unittests for FirstTest.Tests.LoginTest.TestLogin.test_valid_login" />
+        <item itemvalue="Python tests.Unittests for FirstTest.chrome_config.TestTemplate" />
+        <item itemvalue="Python tests.Unittests for FirstTest.Tests.LoginTest.TestLogin" />
         <item itemvalue="Python tests.Unittests for login.LoginTest" />
         <item itemvalue="Python.login" />
-        <item itemvalue="Python tests.Unittests for login.LoginTest.test_login_valid" />
-        <item itemvalue="Python.TestLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -144,5 +149,16 @@
       <updated>1563875822088</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
